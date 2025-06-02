@@ -45,6 +45,13 @@ Pendekatan ini menggunakan:
 1. **Clone repository**
 ```bash
 gh repo clone Antares023/fuzzy_tingkat_stress_mahasiswa.git
+```
+atau
+```bash
+git clone https://github.com/Antares023/fuzzy_tingkat_stress_mahasiswa.git
+```
+pindah ke direktori yang tekah di clone
+```bash
 cd fuzzy_tingkat_stress_mahasiswa
 ```
 
