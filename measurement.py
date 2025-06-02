@@ -32,9 +32,9 @@ tahun['Tengah'] = fuzz.trimf(tahun.universe, [1, 2.5, 4])
 tahun['Akhir'] = fuzz.trimf(tahun.universe, [3, 4, 4])
 
 # Fungsi keanggotaan stres (Gaussian)
-stres['Rendah'] = fuzz.trimf(stres.universe, 20, 10)
-stres['Sedang'] = fuzz.trimf(stres.universe, 50, 10)
-stres['Tinggi'] = fuzz.trimf(stres.universe, 80, 10)
+stres['Rendah'] = fuzz.gaussmf(stres.universe, 20, 10)
+stres['Sedang'] = fuzz.gaussmf(stres.universe, 50, 10)
+stres['Tinggi'] = fuzz.gaussmf(stres.universe, 80, 10)
 
 # Visualisasi fungsi keanggotaan
 cgpa.view()
