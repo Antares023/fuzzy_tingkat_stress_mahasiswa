@@ -31,7 +31,7 @@ Pendekatan ini menggunakan:
 
 ## 🛠️ Teknologi & Library
 
-- [Python]`3.12`(https://www.python.org/)
+- [Python](https://www.python.org/) `3.12`
 - [pandas](https://pandas.pydata.org/)
 - [numpy](https://numpy.org/)
 - [matplotlib](https://matplotlib.org/)
