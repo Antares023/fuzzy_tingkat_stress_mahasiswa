@@ -61,6 +61,7 @@ python fuzzy_tingkat_stress_mahasiswa.py
 ---
 
 ## 🧪 Contoh Output
+
 ```bash
 Input: Beban Tugas = 6, Jam Tidur = 5
 Output Numerik (Prediksi): 72.3
@@ -70,15 +71,18 @@ Kategori: Tinggi
 ---
 
 ## 📄 Lisensi
+
 Proyek ini dilisensikan di bawah MIT License.
 
 ---
 
 ## 👨‍💻 Kontributor
-Muhammad Ilham Ramdhani \n
-Universitas Muhammadiyah Cirebon – Teknik Informatika
+
+🧑 Muhammad Ilham Ramdhani
+🎓 Universitas Muhammadiyah Cirebon – Teknik Informatika
 
 ---
 
 ## 📬 Kontak
+
 📧 Email: ilhamrmdhnii02@gmail.com
