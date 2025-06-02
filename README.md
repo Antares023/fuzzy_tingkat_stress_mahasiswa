@@ -44,18 +44,18 @@ Pendekatan ini menggunakan:
 
 1. **Clone repository**
 ```bash
-git clone https://github.com/username/fuzzy-stress-detector.git
-cd fuzzy-stress-detector
+gh repo clone Antares023/fuzzy_tingkat_stress_mahasiswa.git
+cd fuzzy_tingkat_stress_mahasiswa
 ```
 
 2. **Install Library yg Dibutuhkan**
 ```bash
-pip install -r requirements.txt
+pip install "ketik library yang dibutuhkan (tanpa tanda petik)"
 ```
 
 3. **Jalankan Program**
 ```bash
-python fuzzy_stress.py
+python fuzzy_tingkat_stress_mahasiswa.py
 ```
 
 ---
