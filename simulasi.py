@@ -10,17 +10,15 @@ tingkat_stres = ctrl.Consequent(np.arange(0, 101, 1), 'tingkat_stres')
 
 # Fungsi keanggotaan untuk beban tugas
 beban_tugas['Ringan'] = fuzz.trimf(beban_tugas.universe, [0, 0, 5])
-beban_tugas['Sedang'] = fuzz.trimf(beban_tugas.universe, [0, 5, 10])
+beban_tugas['Sedang'] = fuzz.trimf(beban_tugas.universe, [3, 5, 7])
 beban_tugas['Berat'] = fuzz.trimf(beban_tugas.universe, [5, 10, 10])
 
-# Fungsi keanggotaan untuk jam tidur
-jam_tidur['Sedikit'] = fuzz.trimf(jam_tidur.universe, [0, 0, 4])
-jam_tidur['Cukup'] = fuzz.trimf(jam_tidur.universe, [2, 5, 7])
-jam_tidur['Banyak'] = fuzz.trimf(jam_tidur.universe, [5, 8, 8])
+jam_tidur['Sedikit'] = fuzz.trimf(jam_tidur.universe, [0, 0, 5])
+jam_tidur['Cukup'] = fuzz.trimf(jam_tidur.universe, [3, 5, 7])
+jam_tidur['Banyak'] = fuzz.trimf(jam_tidur.universe, [5, 10, 10])
 
-# Fungsi keanggotaan untuk tingkat stres
 tingkat_stres['Rendah'] = fuzz.trimf(tingkat_stres.universe, [0, 0, 50])
-tingkat_stres['Sedang'] = fuzz.trimf(tingkat_stres.universe, [0, 50, 100])
+tingkat_stres['Sedang'] = fuzz.trimf(tingkat_stres.universe, [30, 50, 70])
 tingkat_stres['Tinggi'] = fuzz.trimf(tingkat_stres.universe, [50, 100, 100])
 
 # Visualisasi fungsi keanggotaan
@@ -52,8 +50,8 @@ stres_ctrl = ctrl.ControlSystem([rule1, rule2, rule3, rule4, rule5, rule6, rule7
 stres_simulator = ctrl.ControlSystemSimulation(stres_ctrl)
 
 # Contoh penggunaan
-stres_simulator.input['beban_tugas'] = 7  # Beban tugas sedang-berat
-stres_simulator.input['jam_tidur'] = 5    # Jam tidur cukup
+stres_simulator.input['beban_tugas'] = 2  # Beban tugas sedang-berat
+stres_simulator.input['jam_tidur'] = 8    # Jam tidur cukup
 
 # Hitung hasil
 stres_simulator.compute()

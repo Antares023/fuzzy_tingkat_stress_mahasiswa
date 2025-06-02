@@ -83,7 +83,7 @@ def tahun_to_value(tahun_str):
     elif 'year4' in tahun_str: return 4
     else: return 1
 
-for i in range(5):
+for i in range(10):
     mhs = data.iloc[i]
     cgpa_val = cgpa_to_value(mhs['What is your CGPA?'])
     tahun_val = tahun_to_value(mhs['Your current year of Study'])
@@ -97,7 +97,5 @@ for i in range(5):
     print(f"Tahun: {mhs['Your current year of Study']}, CGPA: {mhs['What is your CGPA?']}")
     print(f"Depresi: {mhs['Do you have Depression?']}, Anxiety: {mhs['Do you have Anxiety?']}, Panic Attack: {mhs['Do you have Panic attack?']} Treatment: {mhs['Did you seek any specialist for a treatment?']}")
     print(f"Prediksi Stres: {stres_sim.output['stres']:.2f}")
-    
-    stres.view(sim=stres_sim)
+
     plt.title(f'Prediksi Stres Mahasiswa {i+1}')
-    plt.show()
