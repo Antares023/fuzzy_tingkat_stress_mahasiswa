@@ -42,3 +42,22 @@ Pendekatan ini menggunakan:
 
 ## 📁 Struktur Direktori
 
+📦 fuzzy-stress-detector/
+├── mental_health.csv # Dataset simulasi
+├── fuzzy_stress.py # Script utama program
+├── README.md # Dokumentasi ini
+├── visualizations/ # Gambar grafik & hasil
+└── screenshots/ # Cuplikan tampilan sistem
+
+---
+
+## 🚀 Cara Menjalankan
+
+1. **Clone repository**
+```bash
+git clone https://github.com/username/fuzzy-stress-detector.git
+cd fuzzy-stress-detector
+
+2. **Install Library yg Dibutuhkan**
+```bash
+pip install -r requirements.txt
