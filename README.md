@@ -78,8 +78,10 @@ Proyek ini dilisensikan di bawah MIT License.
 
 ## 👨‍💻 Kontributor
 
+```bash
 🧑 Muhammad Ilham Ramdhani
 🎓 Universitas Muhammadiyah Cirebon – Teknik Informatika
+```
 
 ---
 
