@@ -40,24 +40,45 @@ Pendekatan ini menggunakan:
 
 ---
 
-## 📁 Struktur Direktori
-
-📦 fuzzy-stress-detector/
-├── mental_health.csv # Dataset simulasi
-├── fuzzy_stress.py # Script utama program
-├── README.md # Dokumentasi ini
-├── visualizations/ # Gambar grafik & hasil
-└── screenshots/ # Cuplikan tampilan sistem
-
----
-
 ## 🚀 Cara Menjalankan
 
 1. **Clone repository**
 ```bash
 git clone https://github.com/username/fuzzy-stress-detector.git
 cd fuzzy-stress-detector
+```
 
 2. **Install Library yg Dibutuhkan**
 ```bash
 pip install -r requirements.txt
+```
+
+3. **Jalankan Program**
+```bash
+python fuzzy_stress.py
+```
+
+---
+
+## 🧪 Contoh Output
+```bash
+Input: Beban Tugas = 6, Jam Tidur = 5
+Output Numerik (Prediksi): 72.3
+Kategori: Tinggi
+```
+
+---
+
+## 📄 Lisensi
+Proyek ini dilisensikan di bawah MIT License.
+
+---
+
+## 👨‍💻 Kontributor
+Muhammad Ilham Ramdhani
+Universitas Muhammadiyah Cirebon – Teknik Informatika
+
+---
+
+## 📬 Kontak
+📧 Email: ilhamrmdhnii02@gmail.com
