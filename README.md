@@ -31,7 +31,7 @@ Pendekatan ini menggunakan:
 
 ## 🛠️ Teknologi & Library
 
-- Python [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
 - [pandas](https://pandas.pydata.org/)
 - [numpy](https://numpy.org/)
 - [matplotlib](https://matplotlib.org/)
