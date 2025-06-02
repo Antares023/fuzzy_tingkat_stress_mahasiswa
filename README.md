@@ -31,8 +31,7 @@ Pendekatan ini menggunakan:
 
 ## 🛠️ Teknologi & Library
 
-- Python <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" /> `3.12`
+- Python [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
 - [pandas](https://pandas.pydata.org/)
 - [numpy](https://numpy.org/)
 - [matplotlib](https://matplotlib.org/)
