@@ -75,7 +75,7 @@ Proyek ini dilisensikan di bawah MIT License.
 ---
 
 ## 👨‍💻 Kontributor
-Muhammad Ilham Ramdhani
+Muhammad Ilham Ramdhani \n
 Universitas Muhammadiyah Cirebon – Teknik Informatika
 
 ---
