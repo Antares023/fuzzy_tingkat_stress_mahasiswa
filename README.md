@@ -74,7 +74,7 @@ Kategori: Tinggi
 
 Proyek ini dilisensikan di bawah 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
